@@ -1,16 +1,16 @@
 public class Person {
-    protected String name;
-    protected String post;
-    protected String placeOfWork;
-    protected int age;
-    protected int salary;
+    private String name;
+    private String position;
+    private String placeOfWork;
+    private int age;
+    private int salary;
 
     public Person() {
     }
 
-    public Person(String name, String post, String placeOfWork, int age, int salary) {
+    public Person(String name, String position, String placeOfWork, int age, int salary) {
         this.name = name;
-        this.post = post;
+        this.position = position;
         this.placeOfWork = placeOfWork;
         this.age = age;
         this.salary = salary;
@@ -24,12 +24,12 @@ public class Person {
         this.name = name;
     }
 
-    public String getPost() {
-        return post;
+    public String getPosition() {
+        return position;
     }
 
-    public void setPost(String post) {
-        this.post = post;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     public String getPlaceOfWork() {
